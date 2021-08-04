@@ -519,7 +519,11 @@ input[type="button"] {
   }
 
   header figure {
-    width: 30%;
+    width: 60%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row-wrap;
   }
   header nav u {
     width: 20%;
