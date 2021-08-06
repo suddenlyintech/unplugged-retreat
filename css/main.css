@@ -179,7 +179,16 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
 }
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
+  background: #3a3a3a; 
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -221,7 +230,7 @@ footer .content-wrapper {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -345,6 +354,20 @@ input[type="button"] {
   width: 55%;
   margin: 20px 0;
 }
+
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.mission {
+  background-color: #527158;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .map figure{
   width:100%;
   height: 0;
@@ -358,20 +381,6 @@ input[type="button"] {
  position: absolute;
  top:0;
  left: 0;
-
-
-}
-
-/* ==========================================================================
-   About Page
-   ========================================================================== */
-
-.mission {
-  background-color: #527158;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
 }
 
 .contact-section {
@@ -535,11 +544,8 @@ input[type="button"] {
   }
 
   header figure {
-    width: 60%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-flow: row-wrap;
+    width: 30%;
+  
   }
   header nav u {
     width: 20%;
@@ -574,7 +580,7 @@ input[type="button"] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
+    width: 35%;
     margin: 0;
   }
 
@@ -593,14 +599,19 @@ input[type="button"] {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   /* Reviews */
   .reviews article {
     display: flex;
     justify-content: space-between;
+  
   }
+  .reviews h2 {
+    width: 85%;
+  }
+
   .reviews article figure,
   .reviews article div {
     width: 49%;
@@ -608,7 +619,8 @@ input[type="button"] {
 
   .reviews h3 {
     width: 75%;
-    margin: 0;
+    margin:0;
+  
   }
   /* Footer */
   footer .content-wrapper {
@@ -654,6 +666,9 @@ input[type="button"] {
 .mission-content p {
   width: 45%;
 }
+.map figure {
+  padding-bottom: 45.5%;
+}
 
 .contact-section .content-wrapper h2 {
   width: 80%;
@@ -677,7 +692,7 @@ input[type="button"] {
 }
 
 .faq-content {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .faq h2 {
@@ -715,7 +730,7 @@ input[type="button"] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.375em;
-    width: 60%;
+    width: 80%;
   }
 
   /* Aside */
@@ -725,22 +740,23 @@ input[type="button"] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
+  .form-description p {
+    font-size: 1.125em;
+  }
+
 
   /* Features */
 
   .features h2 {
     width: 90%;
-    margin-bottom: 20px;
+   
   }
 
   .features article {
-    flex-basis: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
+    flex-basis: 33%;
+   
   }
   .features .features-item-description {
     width: 62%;
@@ -752,7 +768,11 @@ input[type="button"] {
     justify-content: space-between;
   }
   .reviews h2 {
-    padding-bottom: 50px;
+    padding-bottom:50px;
+  }
+  
+  .reviews article div {
+    width: 42%;
   }
 
   footer h4 {
@@ -793,6 +813,7 @@ input[type="button"] {
     About Page
     ========================================================================== */
 
+  
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -801,8 +822,13 @@ input[type="button"] {
   }
 
   .mission-content p {
-    width: 45%;
+    width: 45.%;
   }
+
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+  
 
   .contact-section .content-wrapper h2 {
     width: 80%;
@@ -867,7 +893,7 @@ input[type="button"] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
   /* Aside */
@@ -877,7 +903,7 @@ input[type="button"] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
@@ -911,6 +937,10 @@ input[type="button"] {
   /* ==========================================================================
   About Page
   ========================================================================== */
+
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
   .mission h2,
   .contact-section .content-wrapper h2 {
