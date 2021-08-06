@@ -761,6 +761,12 @@ input[type="button"] {
   .features .features-item-description {
     width: 62%;
   }
+  
+  .features i {
+    font-size: 3.75em;
+          margin-bottom: 40px;
+  }
+
 
   /* Reviews */
   .reviews article div {
@@ -951,7 +957,7 @@ input[type="button"] {
   .contact-content h4 {
     font-size: 1.875em;
   }
-
+ 
   /* ==========================================================================
   FAQ Page
   ========================================================================== */
